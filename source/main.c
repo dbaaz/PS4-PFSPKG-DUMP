@@ -40,7 +40,7 @@ void copyFile(char *sourcefile, char* destfile)
 {
 	FILE *src = fopen(sourcefile, "r");
 	FILE *out = fopen(destfile,"w");
-	char buffer[2048];
+	char buffer[60480];
 	size_t bytes;
 	while (0 < (bytes = fread(buffer, 1, sizeof(buffer), src)))
     		fwrite(buffer, 1, bytes, out);
