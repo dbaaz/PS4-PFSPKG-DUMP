@@ -1,6 +1,8 @@
 # PS4-PFSPKG-DUMP
 # Dump pfs_image and app.pkg to usb0
 
+# Deprecated, use the latest version of ps4-ftp-vtx instead!
+
 How to
 1. Open the .bin file using a hexeditor and change CUSAXXXXX to the game id of your game.
 2. Open web browser, go to a exploit host page, and minimise the browser using the PS4 home button.
